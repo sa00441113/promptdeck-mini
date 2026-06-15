@@ -1,0 +1,32 @@
+{
+  "appName": "PromptDeck mini",
+  "version": "0.1.0",
+  "loraFolderPath": "",
+  "excludedLoras": [],
+  "loras": {
+    "sample_character.safetensors": {
+      "fileName": "sample_character.safetensors",
+      "displayName": "Sample Character",
+      "trigger": "sample_trigger",
+      "weight": "0.8",
+      "memo": "Example LoRA metadata only. Replace with your own local file.",
+      "previewImagePath": ""
+    }
+  },
+  "prompts": [
+    {
+      "id": "sample-quality",
+      "title": "High quality baseline",
+      "category": "Quality",
+      "promptText": "masterpiece, best quality, detailed",
+      "memo": "General sample prompt."
+    },
+    {
+      "id": "sample-lighting",
+      "title": "Soft studio light",
+      "category": "Lighting",
+      "promptText": "soft studio lighting, clean shadows",
+      "memo": "General sample lighting snippet."
+    }
+  ]
+}
